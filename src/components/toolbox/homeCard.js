@@ -11,7 +11,7 @@ const HomeCard = () => (
       <Link to="/peoples">
         <Card
           style={{
-            margin: "10px",
+            marginTop: "10px",
             textAlign: "center",
             backgroundColor: "black",
           }}
@@ -59,7 +59,7 @@ const HomeCard = () => (
       <Link to="/starships">
         <Card
           style={{
-            margin: "10px",
+            marginTop: "10px",
             textAlign: "center",
             backgroundColor: "black",
           }}

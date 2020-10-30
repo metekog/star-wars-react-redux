@@ -1,5 +1,5 @@
 import React from "react";
-import { Embed, Grid, Header } from "semantic-ui-react";
+import { Embed, Grid } from "semantic-ui-react";
 import img from "../images/trailer.jpg";
 
 const EmbedCard = () => (
@@ -30,21 +30,5 @@ const EmbedCard = () => (
     </Grid.Row>
   </Grid>
 );
-{
-  /*  <div>
-    
-    <Embed
-      icon="right circle arrow"
-      placeholder={img}
-      url="https://www.youtube.com/embed/sGbxmsDFVnE"
-    />
-    <Embed
-      icon="right circle arrow"
-      placeholder={img}
-      url="https://www.youtube.com/embed/sGbxmsDFVnE"
-    />
-  </div>
-); */
-}
 
 export default EmbedCard;

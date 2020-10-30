@@ -6,7 +6,7 @@ import img from "../images/logo.png";
 class Navi extends Component {
   render() {
     return (
-      <div>
+      <div style={{ border: "5px solid black " , borderRadius:"12px"}}>
         <Menu pointing style={{ backgroundColor: "black" }}>
           <Menu.Item>
             <Link to="/">
@@ -19,7 +19,7 @@ class Navi extends Component {
             </Menu.Item>
           </Link>
           <Dropdown
-            style={{ color: "#ffcc00"/* marginTop: "10px"  */}}
+            style={{ color: "#ffcc00" /* marginTop: "10px"  */ }}
             item
             text="MENU"
           >

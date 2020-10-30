@@ -22,7 +22,7 @@ class PlanetList extends Component {
               <Card
                 key={x.id}
                 style={{
-                  margin: "10px",
+                  marginTop: "10px",
                   textAlign: "center",
                   backgroundColor: "black",
                 }}
