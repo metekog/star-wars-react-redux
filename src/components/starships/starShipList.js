@@ -51,11 +51,14 @@ class StarShips extends Component {
                 </Card.Content>
                 <Card.Content extra>
                   <div>
-                    <Link to={`/starship/${i + 2}`}>
-                      <Button basic color="yellow">
-                        Details
-                      </Button>
-                    </Link>
+                    <Button
+                      as={Link}
+                      to={`/starship/${i + 2}`}
+                      basic
+                      color="yellow"
+                    >
+                      Details
+                    </Button>
                   </div>
                 </Card.Content>
               </Card>

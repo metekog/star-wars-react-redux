@@ -51,11 +51,14 @@ class PlanetList extends Component {
                 </Card.Content>
                 <Card.Content extra>
                   <div>
-                    <Link to={`/planet/${i + 1}`}>
-                      <Button basic color="yellow">
-                        Details
-                      </Button>
-                    </Link>
+                    <Button
+                      as={Link}
+                      to={`/planet/${i + 1}`}
+                      basic
+                      color="yellow"
+                    >
+                      Details
+                    </Button>
                   </div>
                 </Card.Content>
               </Card>

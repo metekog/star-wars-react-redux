@@ -81,7 +81,7 @@ class PeopleDetails extends Component {
             </Table.Row>
             <Table.Row>
               <Table.Cell style={{ color: "red" }}>
-                <strong>Gender</strong>
+                <strong>Films</strong>
               </Table.Cell>
               <Table.Cell>
                 {peopleDetails?.films?.map((f) => (
