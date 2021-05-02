@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import { bindActionCreators } from "redux";
 import { Table, Label, Container, Image } from "semantic-ui-react";
 import * as peopleActions from "../../redux/actions/peoples/peopleActions";
@@ -85,7 +86,9 @@ class PeopleDetails extends Component {
               </Table.Cell>
               <Table.Cell>
                 {peopleDetails?.films?.map((f) => (
-                  <code style={{ display: "block" }}>{f}</code>
+                  <Link style={{ display: "block" }}>
+                    {f}
+                  </Link>
                 ))}
               </Table.Cell>
             </Table.Row>
